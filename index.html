@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="This sentence will appear under the link in search engine results."
+    />
+    <meta
+      name="keywords"
+      content="list,of,words,separated,by,commas,that,describe,your,site"
+    />
+    <meta name="author" content="Your name goes here" />
+
+    <!-- viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- shiv which should be a shim -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- tab title -->
+    <title>Post Malone | Videos</title>
+
+    <!-- favicon link -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/videos.css" />
+    <link rel="stylesheet" href="styles/slicknav.css" />
+
+    <!-- slicknav -->
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <!-- Link to jQuery Content Delivery Network - Necessary for SlickNav to work correctly -->
+    <script src="js/jquery.slicknav.min.js"></script>
+    <!-- Link to the slicknav file inside the js folder - Necessary for SlickNav to work correctly -->
+
+    <!-- slicknav javascript - this javascript code will use the UL inside the nav_menu tag to build the same menu in slickNav format -->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#nav_menu").slicknav({ prependTo: "#mobilemenu" });
+      });
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <img class="clearfix" />
+
+      <img class="logo" src="images/post-malone-5db9263c3bcf5.png" />
+
+      <h3>Post Malone</h3>
+    </header>
+
+
+    <main>
+      <iframe id="videos" class="Congratulations" width="1120" height="630" src="https://www.youtube.com/embed/SC4xMk98Pdc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <h2 id=captions" class="caption1">Post Malone "Congratulations"</h2>
+      <iframe id="videos" class="WhiteIverson" width="1120" height="630" src="https://www.youtube.com/embed/SLsTskih7_I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <h2 id="captions" class="caption2">Post Malone "White Iverson"</h2>
+      <iframe id="videos" class="Circles" width="1120" height="630" src="https://www.youtube.com/embed/wXhTHyIgQ_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <h2 id="captions" class="caption3">Post Malone "Circles"</h2>
+    </main>
+
+    <footer>
+      <p>&copy; 2020 Tommy Hendricks</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,133 @@
+/* the styles for the elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Clearfix */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+html {
+  height: 100%;
+  background-color: dimgray;
+}
+img {
+  width: 100%;
+}
+
+.logo {
+  height: 96px;
+  width: 120px;
+  padding: 10px 0 10px 25px;
+  float: left;
+}
+header h3 {
+  font-size: 200%;
+  color: white;
+  padding: 1em;
+}
+
+h2{
+  color: white;
+}
+
+
+/* the styles for the aside */
+aside {
+  width: 25%;
+  float: right;
+  background-color: lightyellow;
+  border-radius: 5px;
+  box-shadow: 3px 3px 7px gray;
+  margin: 0 0 20px 1em;
+  padding: 0.75em;
+  font-weight: bold;
+}
+aside p {
+  padding-bottom: 1.5em;
+}
+
+#bottombuffer {
+  height: 100px;
+  padding-bottom: 100px;
+}
+
+/* the styles for the footer */
+footer {
+  background-color: black;
+  clear: both;
+  border-top: 3px solid #000000;
+  bottom: 0;
+  width: 100%;
+}
+footer p {
+  text-align: center;
+  color: white;
+  font-size: 80%;
+  font-variant: small-caps;
+  padding: 2em 0;
+}
+* {
+  box-sizing: border-box;
+}
+body img:hover {
+  filter: grayscale(100%);
+  transform: scale(1.05);
+}
+body {
+  margin: auto;
+  font-family: Arial;
+}
+main {
+  background-color: black;
+  margin: auto;
+  width: 80%;
+  height: 2500px;
+  text-align: center;
+}
+#captions {
+  transition: color 0.5s;
+}
+#videos {
+  margin: 2.5%;
+  box-shadow: 2px 2px 5px black;
+  border: 2px solid dimgray;
+}
+.Congratulations:hover + .caption1 {
+  color: dimgray;
+}
+.WhiteIverson:hover + .caption2 {
+  color: dimgray;
+}
+.Circles:hover + .caption3 {
+  color: dimgray;
+}
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin: 8px;
+  vertical-align: middle;
+  transition: filter 0.25s;
+  transition: transform 0.35s;
+}
